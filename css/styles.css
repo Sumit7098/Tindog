@@ -1,0 +1,232 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4{
+  font-family: "Montserrat";
+  font-weight: bold;
+
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+
+/* TITLE SECTION */
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+
+.navbar{
+  padding:0  0 4.5rem  0;
+
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding:0 18px 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+.iphone{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  z-index: 1;
+}
+
+  /* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features{
+  position: relative;
+  z-index: 2;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.features{
+  margin-top:5%;
+  padding:5%;
+}
+
+
+
+/* ICONS */
+
+
+.check-circle{
+  font-size: 50px;
+  margin-bottom: 1.5rem;
+  color: #ef8172;
+}
+
+.check-circle:hover{
+  color:#ff4c68;
+}
+
+.bullseye{
+  font-size: 50px;
+  margin-bottom: 1.5rem;
+  color: #ef8172;
+}
+
+.bullseye:hover{
+  color:#ff4c68;
+}
+
+.heart{
+  font-size: 50px;
+  margin-bottom: 1.5rem;
+  color: #ef8172;
+}
+
+.heart:hover{
+  color:#ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+}
+
+.price-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.signup-btn{
+  margin-top: 1.5rem;
+}
+
+/* Media Query */
+
+@media (max-width:1028px){
+  .iphone{
+    text-align: center;
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* CALL TO ACTION */
+
+#cta{
+  padding: 5% 0 2%  0;
+}
+
+.cta{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  bottom: 30px;
+  padding:0 10%;
+}
+
+/* Footer */
+
+#footer{
+  margin: 5% auto;
+}
+
+.footer{
+  margin:0 auto 20px;
+}
+
+.links{
+  margin: 0 10px;
+}
+
+.no-border-button{
+  border: none;
+  background-color: #fff;
+}
